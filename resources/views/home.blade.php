@@ -216,7 +216,7 @@
 
         {{-- graph section --}}
         <div class="row d-flex justify-content-between">
-            <div class="col-sm-6">
+            <div class="col-xl-6 col-md-12 col-sm-12 col-12">
                 <div class="card mb-4">
                     <div class="card-header"><b>Chiffre d'affaire par Mois</b></div>
                     <div class="card-body">
@@ -228,7 +228,7 @@
                 <div class=" chart1 mb-4">
                     <div class="mt-5"><canvas id="mypolarAreaChart" width="100%" height="40%"></canvas></div>
                 </div>
-            </div> --}}
+            </div> col-xl-2 col-md-6 mb-4 taille marge--}}
         </div>
 
         {{-- graph section end --}}

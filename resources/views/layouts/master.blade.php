@@ -375,7 +375,7 @@
                                 <a class="collapse-item"
                                     href="{{ route('prescription_settings.edit') }}">{{ __('sentence.Prescription Settings') }}</a>
                                 <a class="collapse-item"
-                                    href="{{ route('notifications_settings') }}">{{ __('Notifications Settings') }}</a>
+                                    href="{{ route('notifications_settings') }}">{{ __('sentence.Notifications Settings') }}</a>
                             </div>
                         </div>
                     </li>
@@ -398,7 +398,7 @@
                         problème ou bug que vous pourriez rencontrer lors de votre utilisation.
                     </p>
                     <a class="btn btn-primary btn-sm"
-                        href="https://github.com/menoc61/gestion-des-soin-laravel/issues/new">signialer!</a>
+                        href="https://github.com/menoc61/gestion-des-soin-laravel/issues/new">signaler!</a>
                 </div>
             </ul>
             <!-- End of Sidebar -->
@@ -464,9 +464,11 @@
 
                         @if (Auth::user()->role_id == 1)
                             <div class="col-md-6">
+
                                 <a href="http://192.168.1.176:3001" class="btn btn-primary" target="_blank"
                                     target="_self" rel="noopener"><i class="fa fa-user"></i> <span>Gestion Du
                                         Personnel</span></a>
+                              
                                 <a href="http://192.168.1.176:3000" class="btn btn-secondary" target="_blank"
                                     target="_self" rel="noopener"><i class="fa fa-globe"></i> <span>Gestion De
                                         Stock</span></a>

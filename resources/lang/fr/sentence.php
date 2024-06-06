@@ -121,6 +121,19 @@ return [
     'SENSIBILITE' => 'Sensibilite:',
     'CIRCULATION' => 'Circulation:',
     'SIGNES PARTICULIERS' => 'Signes particuliers:',
+    //Notification
+    'Start Date' => 'Date de Début',
+    'End Date' => 'Date de fin',
+    'Color' => 'Couleur',
+    'Save' => 'Sauvegarder',
+    'Content' => 'Contenu',
+    'Title' => 'Titre',
+    'Notifications Settings' => 'Paramètre de notifications',
+    'Reset Password' => 'Renitialiser le Mot de passe',
+    'E-Mail Address' => 'Adresse e-mail',
+    'Send Password Reset Link' => 'Envoyer le lien de réinitialisation du mot de passe',
+    'Password' => 'Mot de passe',
+    'Confirm Password' => 'Confirmer le mot de passe',
 
     // diagnostic hand
     'general hand state' => 'Etat générale des mains: ',

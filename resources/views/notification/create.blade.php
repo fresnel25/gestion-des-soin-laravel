@@ -15,17 +15,17 @@
 
             <form method="post" action="{{ route('notification.store') }}">
                <div class="form-group">
-                  <label for="title">{{ __('Title') }}</label>
+                  <label for="title">{{ __('sentence.Title') }}</label>
                   <input type="text" class="form-control" name="title" id="title" aria-describedby="title">
                   {{ csrf_field() }}
                </div>
                <div class="form-group">
-                  <label for="content">{{ __('Content') }}</label>
+                  <label for="content">{{ __('sentence.Content') }}</label>
                   <textarea class="form-control" name="content" id="content" aria-describedby="content" cols="30" rows="5"></textarea>
                   {{ csrf_field() }}
                </div>
                <div class="form-group">
-                  <label for="type">{{ __('Color') }}</label>
+                  <label for="type">{{ __('sentence.Color') }}</label>
                   <select type="text" class="form-control" name="type" id="type">
                      <option value="success">Success</option>
                      <option value="danger">Danger</option>
@@ -34,15 +34,15 @@
                   </select>
                </div>
                <div class="form-group">
-                  <label for="start_date">{{ __('Start Date') }}</label>
+                  <label for="start_date">{{ __('sentence.Start Date') }}</label>
                   <input type="date" class="form-control" name="start_date" id="start_date">
                </div>
                <div class="form-group">
-                  <label for="end_date">{{ __('End Date') }}</label>
+                  <label for="end_date">{{ __('sentence.End Date') }}</label>
                   <input type="date" class="form-control" name="end_date" id="end_date">
                </div>
 
-               <button type="submit" class="btn btn-primary">{{ __('Save') }}</button>
+               <button type="submit" class="btn btn-primary">{{ __('sentence.Save') }}</button>
             </form>
          </div>
       </div>
